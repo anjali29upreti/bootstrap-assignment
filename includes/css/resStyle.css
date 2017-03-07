@@ -1,0 +1,179 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:   Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+    #features{
+      text-align: center;
+    }
+
+    #features img{
+      margin: 0 0 20px;
+    }
+
+    .feature p{
+      font-family: 'Abril Fatface', cursive;
+      font-style: bold;
+      color: #400561;
+    }
+
+    .well p{
+      font-family: 'Lobster Two', cursive;
+      font-size: 17px;
+      color: #400561;
+    }
+
+    footer{
+      background: #333;
+      color: #eee;
+      font-size: 11px;
+      padding: 20px;
+    }
+
+    #main{
+        background: url('../../img/blue_yellow.jpg')
+    }
+
+    #details .col-sm-4 img{
+      margin-top: 3%;
+      margin-left: 5%;
+      margin-bottom: 3%;
+    }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+   .well .page-header{
+    margin-top: 0;
+   }
+
+   .well .page-header h1{
+    margin-top: 0;
+   }
+
+   ul{
+    list-style: none;
+    padding: 0;
+   }
+   
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+  .navbar-brand{
+    padding: 1px 20px;
+  }
+
+  #search{
+    width: 200px;
+  }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   /*#myCarousel{
+    position: static;
+   }*/
+   /*.carousel{
+    position: static !important;
+   }
+   */
+   #myCarousel .item{ 
+    height: 400px;
+   margin-top: 6%;
+   width: 80%;
+   margin-left: 10%;  
+   /*margin-right: 10%;*/
+
+ }
+  
+
+   #slide1{
+    background: url('../../img/FruitTrees.jpg') no-repeat center;
+    }
+
+   #slide2{
+    background: url('../../img/pictureoforanges.jpg') no-repeat center;
+    
+   }
+
+   #slide3{
+    background: url('../../img/Tomkin-British-Tomato-Growers-Association-National-Plant-Societies-Plant-Heritage-Marquee-Tatton-Park-2012-_PUB0024696.jpg') no-repeat center;
+   }
+
+  
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .alert{
+    margin-top: 20px;;
+    display: none;
+   }
+
+   .well{
+    margin: 20px 0;
+   }
+   
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
+
+   @media (max-width: 480px) {
+  
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    #slide1{
+      background: url('../../img/FruitTrees_small.jpg') no-repeat center;
+      }
+
+    #slide2{
+      background: url('../../img/pictureoforanges_small.jpg') no-repeat center;
+    
+      }
+
+    #slide3{
+      background: url('../../img/Tomkin-British-Tomato-Growers-Association-National-Plant-Societies-Plant-Heritage-Marquee-Tatton-Park-2012-_PUB0024696_small.jpg') no-repeat center;
+      }
+  
+}
+
+@media (max-width: 800px){
+  .menu{
+    display: none!important;
+  }
+  #home{
+    margin-right: 20%;
+    padding-left:8px !important;
+    padding-right: 10px !important;
+  }
+}
+
+
+/*@media (max-width: 1300px) {
+
+  */
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
