@@ -17,6 +17,26 @@ Notes:   Hand coded for Udemy.com
     #features{
       text-align: center;
     }
+    .fa{
+      margin-right: 3.5%;
+    }
+    .lead{
+      color: #333;
+    }
+    #follow{
+      color: #fff;
+    }
+    .links{
+      color: #7f98a6!important;
+      font-size: 12px!important;
+      font-weight: 600!important;
+    }
+    #moto{
+      color: #333!important;
+    }
+    p.list-group-item-text{
+      font-weight: 900!important;
+    }
 
     #features img{
       margin: 0 0 20px;
@@ -25,13 +45,14 @@ Notes:   Hand coded for Udemy.com
     .feature p{
       font-family: 'Abril Fatface', cursive;
       font-style: bold;
-      color: #400561;
+      color: #333;
     }
 
     .well p{
       font-family: 'Lobster Two', cursive;
       font-size: 17px;
-      color: #400561;
+      color: #333;
+      font-weight: 600;
     }
 
     footer{
@@ -45,10 +66,24 @@ Notes:   Hand coded for Udemy.com
         background: url('../../img/blue_yellow.jpg')
     }
 
+   /* .list-group-item, .well{
+      background: url('../../img/blue_yellow.jpg')
+      background: #8e8e91;
+    }*/
+
+    .list-group, .well{
+      background: url('../../img/89baaec3227c63044d8d715b7388f8b7.jpg')
+
+    }
+
     #details .col-sm-4 img{
       margin-top: 3%;
-      margin-left: 5%;
+      margin-left: 18%;
       margin-bottom: 3%;
+    }
+
+    #change{
+      color: #eee;
     }
 
 /* --------------------------------------
@@ -68,7 +103,7 @@ Notes:   Hand coded for Udemy.com
     list-style: none;
     padding: 0;
    }
-   
+
 
 /* --------------------------------------
    Navbar
@@ -92,15 +127,14 @@ Notes:   Hand coded for Udemy.com
     position: static !important;
    }
    */
-   #myCarousel .item{ 
-    height: 400px;
+   #myCarousel .item{
+    height: 450px;
    margin-top: 6%;
-   width: 80%;
-   margin-left: 10%;  
+   width: 100%;
    /*margin-right: 10%;*/
 
  }
-  
+
 
    #slide1{
     background: url('../../img/FruitTrees.jpg') no-repeat center;
@@ -108,14 +142,14 @@ Notes:   Hand coded for Udemy.com
 
    #slide2{
     background: url('../../img/pictureoforanges.jpg') no-repeat center;
-    
+
    }
 
    #slide3{
     background: url('../../img/Tomkin-British-Tomato-Growers-Association-National-Plant-Societies-Plant-Heritage-Marquee-Tatton-Park-2012-_PUB0024696.jpg') no-repeat center;
    }
 
-  
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -127,7 +161,7 @@ Notes:   Hand coded for Udemy.com
    .well{
     margin: 20px 0;
    }
-   
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
@@ -135,7 +169,7 @@ Notes:   Hand coded for Udemy.com
    /* Portrait & landscape phone */
 
    @media (max-width: 480px) {
-  
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -147,33 +181,55 @@ Notes:   Hand coded for Udemy.com
 
     #slide2{
       background: url('../../img/pictureoforanges_small.jpg') no-repeat center;
-    
+
       }
 
     #slide3{
       background: url('../../img/Tomkin-British-Tomato-Growers-Association-National-Plant-Societies-Plant-Heritage-Marquee-Tatton-Park-2012-_PUB0024696_small.jpg') no-repeat center;
       }
-  
+
 }
 
-@media (max-width: 800px){
-  .menu{
-    display: none!important;
+@media (max-width: 1300px){
+
+.navbar-brand {
+    float: none;
   }
-  #home{
-    margin-right: 20%;
-    padding-left:8px !important;
-    padding-right: 10px !important;
+  .navbar-nav {
+    float: none !important;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+  }
+  .pull-right , .pull-left {
+    float: none !important;
+  }
+  .navbar-toggle {
+    position: relative;
+    /*top: auto;
+    left: auto;*/
+    display: block;
+    margin-top: 10px;
+    float: right;
+
+  }
+  .nav-collapse.collapse {
+    display: none !important;
+  }
+
+  .collapse.in {
+  display: block !important;
+  }
+
+  .navbar-header{
+    float: none;
+
   }
 }
-
-
-/*@media (max-width: 1300px) {
-
-  */
-}
-
 /* Large desktop */
 @media (min-width: 1200px) {
-  
+
 }
